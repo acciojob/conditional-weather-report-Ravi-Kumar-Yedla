@@ -10,12 +10,8 @@ function App() {
 
   useEffect(() => {
     // Simulate fetching weather data
-    const fetchedWeather = { temperature: 25, conditions: "Sunny" };
-
-        // Update weather state
-        setWeather(fetchedWeather);
-  }, []);
-
+    setWeather({ temperature: 25, conditions: 'Sunny' });
+  },[])
   return (
     <div>
       <h1>Weather Application</h1>
