@@ -6,7 +6,7 @@ import React from 'react'
    function WeatherDisplay({temperature,condition}){
 
       const tempStyle = {
-        color : temperature > 20 ? 'red' : 'Blue',
+        color : temperature > 20 ? 'rgb(255, 0, 0)' : 'blue',
       };
 
    
