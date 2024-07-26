@@ -1,7 +1,8 @@
 
 import React, { useEffect,useState} from "react";
 import './../styles/App.css';
-import WeatherDisplay from "./weatherDisplay.js";
+import WeatherDisplay from "./WeatherDisplay";
+
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
   return (
     <div>
       <h1>Weather Application</h1>
-      <WeatherDisplay temperature={weather.temperature} conditions={weather.conditions} />
+      <WeatherDisplay temperature={weather.temperature} conditions={weather.conditions}/>
       
     </div>
   );
