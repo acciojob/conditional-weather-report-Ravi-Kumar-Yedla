@@ -13,8 +13,8 @@ import React from 'react'
   return (
     <div>
       <span>
-        <p style={tempStyle}>Temperatue : {temperature}</p>
-      <p>condtions : {condition}</p>
+        <p style={tempStyle}>Temperature: {temperature}</p>
+      <p>condtions: {condition}</p>
       </span>
 
     </div>
