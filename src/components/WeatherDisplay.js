@@ -12,8 +12,11 @@ import React from 'react'
    
   return (
     <div>
-        <span style={tempStyle}>temperatue : {temperature}°C</span>
-      <span>condtions : {condition}</span>
+      <span>
+        <p style={tempStyle}>temperatue : {temperature}°C</p>
+      <p>condtions : {condition}</p>
+      </span>
+
     </div>
   )
 }
