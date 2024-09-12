@@ -12,11 +12,10 @@ import React from 'react'
    
   return (
     <div>
-      <span>
+      <div>
         <p style={tempStyle}>Temperature: {temperature}</p>
-      <p>condtions: {condition}</p>
-      </span>
-
+        <p>Conditions: {condition}</p>
+      </div>
     </div>
   )
 }
