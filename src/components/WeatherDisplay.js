@@ -3,18 +3,20 @@ import React from 'react'
 
 
 
-   function WeatherDisplay({temperature,condition}){
+   function WeatherDisplay(props){
+      const {weather} = props
 
       const tempStyle = {
-        color : temperature > 20 ? 'rgb(255, 0, 0)' : 'blue',
+        color : weather.temperature > 20 ? 'rgb(255, 0, 0)' : 'blue',
       };
 
    
   return (
     <div>
       <span>
-        <p style={tempStyle}>Temperature: {temperature}</p>
-      <p>condtions: {condition}</p>
+        {/* <p style={tempStyle}>Temperature: {temperature}</p>*/}
+        <p>Temperature: <span style={tempStyle}>{weather.temperature}</span></p>
+      <p>condtions: {weather.condition}</p>
       </span>
 
     </div>
